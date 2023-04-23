@@ -415,6 +415,8 @@ def entregables_kmeans(
         legendgroup = str(i1+1)
       ),row=f,col=c)
 
+  fig.update_xaxes(categoryorder='category ascending')
+  
   fig.update_layout(
     height=600, 
     width=1200,
