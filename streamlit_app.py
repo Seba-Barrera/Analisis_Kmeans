@@ -490,7 +490,7 @@ def main():
         )
       
       # titulo entregable 
-      st.markdown('### 1. Graficos para desicion de k')
+      st.markdown('### 1. Graficos de Metricas para eleccion de k')
 
       # mostrar grafico de diagnostico 
       st.plotly_chart(fig_diagnostico, use_container_width=True) 
